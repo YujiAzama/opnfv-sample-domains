@@ -30,7 +30,7 @@
     <emulator>/usr/bin/kvm-spice</emulator>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
-      <source file='/opt/libvirt/images/opnfv-colorado.2.0.iso'/>
+      <source file='/opt/libvirt/images/opnfv-colorado.3.0.iso'/>
       <target dev='hdb' bus='ide'/>
       <readonly/>
       <boot order='2'/>
